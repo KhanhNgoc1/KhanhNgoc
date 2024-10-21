@@ -1,0 +1,13 @@
+while true do task.wait()
+
+local args = {
+    [1] = "swamp_trap_damage",
+    [2] = game:GetService("Players").LocalPlayer.Character,
+    [3] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.Angles(1.228732031677282e-07, -1.199800729751587, 8.192461109501892e-08)
+}
+
+game:GetService("ReplicatedStorage").Remotes.To_Server.Handle_Initiate_S:FireServer(unpack(args))
+
+task.wait(0.1)
+
+end
